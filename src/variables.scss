@@ -1,1 +1,12 @@
-$name-color:            rgba(0, 0, 0, 0.87);
+:root {
+    --name-color:      rgba(0, 0, 0, 0.87);
+    --white:           #FFFFFF;
+    --black:           #000000;
+    --primary:         #333333;
+    --main-text:       #282B2E;
+    --element:         #6E767D;
+    --active:          #ED1C24;
+    --toogle-check:    #80858a;
+    --toogle-un-check: #A6AAAD;
+    --transition-el:     all 0.3s ease-in-out;
+}

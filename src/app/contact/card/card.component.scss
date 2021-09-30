@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    margin-bottom: 30px;
+
+    &__img {
+        margin-right: 28px;
+    }
+
+    &__info {
+
+        &_name {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.15px;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        &_job {
+            font-size: 12px;
+            line-height: 14px;
+            color: #A6AAAD;
+            margin-bottom: 10px;
+
+            p {
+                margin-top: 0;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    &__contact {
+        font-size: 12px;
+        line-height: 14px;
+        color: #212121;
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #212121;
+        }
+    }
+}
